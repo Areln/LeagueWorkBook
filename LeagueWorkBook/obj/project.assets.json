@@ -37,19 +37,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andaa\\.nuget\\packages\\": {}
+    "C:\\Users\\Aaron\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andaa\\Desktop\\IMPORTANT FILES\\GCProjects\\LeagueWorkBook\\LeagueWorkBook\\LeagueWorkBook.csproj",
+      "projectUniqueName": "C:\\Users\\Aaron\\Desktop\\Important Files\\LeagueWorkBook\\LeagueWorkBook\\LeagueWorkBook\\LeagueWorkBook.csproj",
       "projectName": "LeagueWorkBook",
-      "projectPath": "C:\\Users\\andaa\\Desktop\\IMPORTANT FILES\\GCProjects\\LeagueWorkBook\\LeagueWorkBook\\LeagueWorkBook.csproj",
-      "packagesPath": "C:\\Users\\andaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andaa\\Desktop\\IMPORTANT FILES\\GCProjects\\LeagueWorkBook\\LeagueWorkBook\\obj\\",
+      "projectPath": "C:\\Users\\Aaron\\Desktop\\Important Files\\LeagueWorkBook\\LeagueWorkBook\\LeagueWorkBook\\LeagueWorkBook.csproj",
+      "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aaron\\Desktop\\Important Files\\LeagueWorkBook\\LeagueWorkBook\\LeagueWorkBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

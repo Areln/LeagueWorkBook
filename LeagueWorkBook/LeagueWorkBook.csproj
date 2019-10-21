@@ -7,7 +7,623 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\champion\Aatrox.png" />
+    <None Remove="Images\champion\Ahri.png" />
+    <None Remove="Images\champion\Akali.png" />
+    <None Remove="Images\champion\Alistar.png" />
+    <None Remove="Images\champion\Amumu.png" />
+    <None Remove="Images\champion\Anivia.png" />
+    <None Remove="Images\champion\Annie.png" />
+    <None Remove="Images\champion\Ashe.png" />
+    <None Remove="Images\champion\AurelionSol.png" />
+    <None Remove="Images\champion\Azir.png" />
+    <None Remove="Images\champion\Bard.png" />
+    <None Remove="Images\champion\Blitzcrank.png" />
+    <None Remove="Images\champion\Brand.png" />
+    <None Remove="Images\champion\Braum.png" />
+    <None Remove="Images\champion\Caitlyn.png" />
+    <None Remove="Images\champion\Camille.png" />
+    <None Remove="Images\champion\Cassiopeia.png" />
+    <None Remove="Images\champion\Chogath.png" />
+    <None Remove="Images\champion\Corki.png" />
+    <None Remove="Images\champion\Darius.png" />
+    <None Remove="Images\champion\Diana.png" />
+    <None Remove="Images\champion\Draven.png" />
+    <None Remove="Images\champion\DrMundo.png" />
+    <None Remove="Images\champion\Ekko.png" />
+    <None Remove="Images\champion\Elise.png" />
+    <None Remove="Images\champion\Evelynn.png" />
+    <None Remove="Images\champion\Ezreal.png" />
+    <None Remove="Images\champion\Fiddlesticks.png" />
+    <None Remove="Images\champion\Fiora.png" />
+    <None Remove="Images\champion\Fizz.png" />
+    <None Remove="Images\champion\Galio.png" />
+    <None Remove="Images\champion\Gangplank.png" />
+    <None Remove="Images\champion\Garen.png" />
+    <None Remove="Images\champion\Gnar.png" />
+    <None Remove="Images\champion\Gragas.png" />
+    <None Remove="Images\champion\Graves.png" />
+    <None Remove="Images\champion\Hecarim.png" />
+    <None Remove="Images\champion\Heimerdinger.png" />
+    <None Remove="Images\champion\Illaoi.png" />
+    <None Remove="Images\champion\Irelia.png" />
+    <None Remove="Images\champion\Ivern.png" />
+    <None Remove="Images\champion\Janna.png" />
+    <None Remove="Images\champion\JarvanIV.png" />
+    <None Remove="Images\champion\Jax.png" />
+    <None Remove="Images\champion\Jayce.png" />
+    <None Remove="Images\champion\Jhin.png" />
+    <None Remove="Images\champion\Jinx.png" />
+    <None Remove="Images\champion\Kaisa.png" />
+    <None Remove="Images\champion\Kalista.png" />
+    <None Remove="Images\champion\Karma.png" />
+    <None Remove="Images\champion\Karthus.png" />
+    <None Remove="Images\champion\Kassadin.png" />
+    <None Remove="Images\champion\Katarina.png" />
+    <None Remove="Images\champion\Kayle.png" />
+    <None Remove="Images\champion\Kayn.png" />
+    <None Remove="Images\champion\Kennen.png" />
+    <None Remove="Images\champion\Khazix.png" />
+    <None Remove="Images\champion\Kindred.png" />
+    <None Remove="Images\champion\Kled.png" />
+    <None Remove="Images\champion\KogMaw.png" />
+    <None Remove="Images\champion\Leblanc.png" />
+    <None Remove="Images\champion\LeeSin.png" />
+    <None Remove="Images\champion\Leona.png" />
+    <None Remove="Images\champion\Lissandra.png" />
+    <None Remove="Images\champion\Lucian.png" />
+    <None Remove="Images\champion\Lulu.png" />
+    <None Remove="Images\champion\Lux.png" />
+    <None Remove="Images\champion\Malphite.png" />
+    <None Remove="Images\champion\Malzahar.png" />
+    <None Remove="Images\champion\Maokai.png" />
+    <None Remove="Images\champion\MasterYi.png" />
+    <None Remove="Images\champion\MissFortune.png" />
+    <None Remove="Images\champion\MonkeyKing.png" />
+    <None Remove="Images\champion\Mordekaiser.png" />
+    <None Remove="Images\champion\Morgana.png" />
+    <None Remove="Images\champion\Nami.png" />
+    <None Remove="Images\champion\Nasus.png" />
+    <None Remove="Images\champion\Nautilus.png" />
+    <None Remove="Images\champion\Neeko.png" />
+    <None Remove="Images\champion\Nidalee.png" />
+    <None Remove="Images\champion\Nocturne.png" />
+    <None Remove="Images\champion\Nunu.png" />
+    <None Remove="Images\champion\Olaf.png" />
+    <None Remove="Images\champion\Orianna.png" />
+    <None Remove="Images\champion\Ornn.png" />
+    <None Remove="Images\champion\Pantheon.png" />
+    <None Remove="Images\champion\Poppy.png" />
+    <None Remove="Images\champion\Pyke.png" />
+    <None Remove="Images\champion\Qiyana.png" />
+    <None Remove="Images\champion\Quinn.png" />
+    <None Remove="Images\champion\Rakan.png" />
+    <None Remove="Images\champion\Rammus.png" />
+    <None Remove="Images\champion\RekSai.png" />
+    <None Remove="Images\champion\Renekton.png" />
+    <None Remove="Images\champion\Rengar.png" />
+    <None Remove="Images\champion\Riven.png" />
+    <None Remove="Images\champion\Rumble.png" />
+    <None Remove="Images\champion\Ryze.png" />
+    <None Remove="Images\champion\Sejuani.png" />
+    <None Remove="Images\champion\Shaco.png" />
+    <None Remove="Images\champion\Shen.png" />
+    <None Remove="Images\champion\Shyvana.png" />
+    <None Remove="Images\champion\Singed.png" />
+    <None Remove="Images\champion\Sion.png" />
+    <None Remove="Images\champion\Sivir.png" />
+    <None Remove="Images\champion\Skarner.png" />
+    <None Remove="Images\champion\Sona.png" />
+    <None Remove="Images\champion\Soraka.png" />
+    <None Remove="Images\champion\Swain.png" />
+    <None Remove="Images\champion\Sylas.png" />
+    <None Remove="Images\champion\Syndra.png" />
+    <None Remove="Images\champion\TahmKench.png" />
+    <None Remove="Images\champion\Taliyah.png" />
+    <None Remove="Images\champion\Talon.png" />
+    <None Remove="Images\champion\Taric.png" />
+    <None Remove="Images\champion\Teemo.png" />
+    <None Remove="Images\champion\Thresh.png" />
+    <None Remove="Images\champion\Tristana.png" />
+    <None Remove="Images\champion\Trundle.png" />
+    <None Remove="Images\champion\Tryndamere.png" />
+    <None Remove="Images\champion\TwistedFate.png" />
+    <None Remove="Images\champion\Twitch.png" />
+    <None Remove="Images\champion\Udyr.png" />
+    <None Remove="Images\champion\Urgot.png" />
+    <None Remove="Images\champion\Varus.png" />
+    <None Remove="Images\champion\Vayne.png" />
+    <None Remove="Images\champion\Veigar.png" />
+    <None Remove="Images\champion\Velkoz.png" />
+    <None Remove="Images\champion\Vi.png" />
+    <None Remove="Images\champion\Viktor.png" />
+    <None Remove="Images\champion\Vladimir.png" />
+    <None Remove="Images\champion\Volibear.png" />
+    <None Remove="Images\champion\Warwick.png" />
+    <None Remove="Images\champion\Xayah.png" />
+    <None Remove="Images\champion\Xerath.png" />
+    <None Remove="Images\champion\XinZhao.png" />
+    <None Remove="Images\champion\Yasuo.png" />
+    <None Remove="Images\champion\Yorick.png" />
+    <None Remove="Images\champion\Yuumi.png" />
+    <None Remove="Images\champion\Zac.png" />
+    <None Remove="Images\champion\Zed.png" />
+    <None Remove="Images\champion\Ziggs.png" />
+    <None Remove="Images\champion\Zilean.png" />
+    <None Remove="Images\champion\Zoe.png" />
+    <None Remove="Images\champion\Zyra.png" />
+    <None Remove="Images\profileicon\0.png" />
+    <None Remove="Images\profileicon\1.png" />
+    <None Remove="Images\profileicon\10.png" />
+    <None Remove="Images\profileicon\1000.png" />
+    <None Remove="Images\profileicon\1001.png" />
+    <None Remove="Images\profileicon\1002.png" />
+    <None Remove="Images\profileicon\1003.png" />
+    <None Remove="Images\profileicon\21.png" />
+    <None Remove="Images\profileicon\3784.png" />
+    <None Remove="Images\profileicon\4132.png" />
+    <None Remove="Images\profileicon\4270.png" />
+    <None Remove="Images\profileicon\556.png" />
+    <None Remove="Images\profileicon\577.png" />
+    <None Remove="Images\profileicon\713.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MingweiSamuel.Camille" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\champion\Aatrox.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Ahri.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Akali.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Alistar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Amumu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Anivia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Annie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Ashe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\AurelionSol.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Azir.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Bard.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Blitzcrank.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Brand.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Braum.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Caitlyn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Camille.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Cassiopeia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Chogath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Corki.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Darius.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Diana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Draven.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\DrMundo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Ekko.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Elise.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Evelynn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Ezreal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Fiddlesticks.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Fiora.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Fizz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Galio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Gangplank.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Garen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Gnar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Gragas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Graves.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Hecarim.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Heimerdinger.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Illaoi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Irelia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Ivern.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Janna.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\JarvanIV.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Jax.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Jayce.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Jhin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Jinx.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Kaisa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Kalista.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Karma.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Karthus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Kassadin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Katarina.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Kayle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Kayn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Kennen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Khazix.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Kindred.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Kled.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\KogMaw.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Leblanc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\LeeSin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Leona.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Lissandra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Lucian.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Lulu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Lux.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Malphite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Malzahar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Maokai.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\MasterYi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\MissFortune.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\MonkeyKing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Mordekaiser.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Morgana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Nami.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Nasus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Nautilus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Neeko.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Nidalee.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Nocturne.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Nunu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Olaf.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Orianna.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Ornn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Pantheon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Poppy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Pyke.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Qiyana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Quinn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Rakan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Rammus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\RekSai.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Renekton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Rengar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Riven.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Rumble.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Ryze.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Sejuani.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Shaco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Shen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Shyvana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Singed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Sion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Sivir.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Skarner.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Sona.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Soraka.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Swain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Sylas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Syndra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\TahmKench.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Taliyah.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Talon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Taric.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Teemo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Thresh.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Tristana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Trundle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Tryndamere.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\TwistedFate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Twitch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Udyr.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Urgot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Varus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Vayne.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Veigar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Velkoz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Vi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Viktor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Vladimir.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Volibear.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Warwick.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Xayah.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Xerath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\XinZhao.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Yasuo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Yorick.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Yuumi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Zac.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Zed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Ziggs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Zilean.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Zoe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\champion\Zyra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\profileicon\0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\profileicon\1.png" />
+    <Resource Include="Images\profileicon\10.png" />
+    <Resource Include="Images\profileicon\1000.png" />
+    <Resource Include="Images\profileicon\1001.png" />
+    <Resource Include="Images\profileicon\1002.png" />
+    <Resource Include="Images\profileicon\1003.png" />
+    <Resource Include="Images\profileicon\21.png" />
+    <Resource Include="Images\profileicon\3784.png" />
+    <Resource Include="Images\profileicon\4132.png" />
+    <Resource Include="Images\profileicon\4270.png" />
+    <Resource Include="Images\profileicon\556.png" />
+    <Resource Include="Images\profileicon\577.png" />
+    <Resource Include="Images\profileicon\713.png" />
   </ItemGroup>
 
 </Project>
