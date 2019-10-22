@@ -27,7 +27,7 @@ namespace LeagueWorkBook
     /// </summary>
     public partial class MainWindow : Window
     {
-        RiotApi riotApi = RiotApi.NewInstance("RGAPI-c3510fc1-fd31-4c00-9df1-8579b88c0b76");
+        RiotApi riotApi = RiotApi.NewInstance("RGAPI-97268b1a-9c8c-4f08-8cd5-baf87e0e4bf9");
         Summoner searchedSummoner;
         CurrentGameInfo CurrentGameInfo;
         ChampionMastery[] championMastery;
@@ -82,8 +82,9 @@ namespace LeagueWorkBook
                 ChampionMastery mastery = championMastery[i];
                 Champion champion = (Champion)mastery.ChampionId;
                 MatchupNotes.Text = string.Concat(MatchupNotes.Text, (i+1)+")",champion.Name(), $": {mastery.ChampionPoints} \n");
-
-                champMasteryImages[i].Source = new BitmapImage(new Uri(@"/Images/champion/" + champion.Name().Replace(" ", string.Empty) + ".png", UriKind.Relative));
+                string champShell = champion.Name().Replace(" ", string.Empty);
+                champShell = champShell.Replace("'", string.Empty);
+                champMasteryImages[i].Source = new BitmapImage(new Uri(@"/Images/champion/" + champShell + ".png", UriKind.Relative));
             }
             ChangeProfileIcon(searchedSummoner.ProfileIconId);
         }

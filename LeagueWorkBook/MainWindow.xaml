@@ -6,15 +6,74 @@
         xmlns:local="clr-namespace:LeagueWorkBook"
         mc:Ignorable="d"
         Title="LeagueWorkBook" Height="500" Width="800">
-    <Grid Height="480">
-        <TextBox x:Name="SummonerNameSearchField" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Syzzurpp" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="SummonerNameSearchBtn" Content="Button" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Click="SummonerNameSearchBtn_Click"/>
-        <TextBox x:Name="MatchupNotes" HorizontalAlignment="Left" Margin="571,20,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Height="384"/>
-        <Image x:Name="ProfileIconImage" HorizontalAlignment="Left" Height="90" Margin="180,10,0,0" VerticalAlignment="Top" Width="90" Source="/Images/champion/Aatrox.png"/>
-        <Image x:Name="champMasteryIcon1" Source="/Images/champion/Aatrox.png" HorizontalAlignment="Left" Height="70" Margin="10,54,0,0" VerticalAlignment="Top" Width="70"/>
-        <Image x:Name="champMasteryIcon2" Source="/Images/champion/Aatrox.png" HorizontalAlignment="Left" Height="70" Margin="10,129,0,0" VerticalAlignment="Top" Width="70"/>
-        <Image x:Name="champMasteryIcon3" Source="/Images/champion/Aatrox.png" HorizontalAlignment="Left" Height="70" Margin="10,204,0,0" VerticalAlignment="Top" Width="70"/>
-        <Image x:Name="champMasteryIcon4" Source="/Images/champion/Aatrox.png" HorizontalAlignment="Left" Height="70" Margin="10,279,0,0" VerticalAlignment="Top" Width="70"/>
-        <Image x:Name="champMasteryIcon5" Source="/Images/champion/Aatrox.png" HorizontalAlignment="Left" Height="70" Margin="10,354,0,0" VerticalAlignment="Top" Width="70"/>
+    <Grid x:Name="MainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="2" Background="Firebrick">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="85"/><!-- Team icons-->
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="85"/>
+                <ColumnDefinition Width="5"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/> <!--Middle-->
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="5"/>
+            </Grid.RowDefinitions>
+            <!--Team1-->
+            <Image x:Name="champMasteryIcon1" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left"/>
+            <Image x:Name="champMasteryIcon2" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"/>
+            <Image x:Name="champMasteryIcon3" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left"/>
+            <Image x:Name="champMasteryIcon4" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Left"/>
+            <Image x:Name="champMasteryIcon5" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <!--Team2-->
+            <Image x:Name="Team2ChampIcon1" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Right"/>
+            <Image x:Name="Team2ChampIcon2" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Right"/>
+            <Image x:Name="Team2ChampIcon3" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Right"/>
+            <Image x:Name="Team2ChampIcon4" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="4" HorizontalAlignment="Right"/>
+            <Image x:Name="Team2ChampIcon5" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="5" HorizontalAlignment="Right"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        
+        <TextBox x:Name="SummonerNameSearchField" Text="Syzzurpp" Grid.Column="1" Grid.Row="1" Width="100"/>
+        <Button x:Name="SummonerNameSearchBtn" Margin="5" Content="Search" Click="SummonerNameSearchBtn_Click" Grid.Column="1" Grid.Row="2" Width="100"/>
+        <TextBox x:Name="MatchupNotes" Text="TextBlock" Grid.Column="4" Grid.Row="3" Width="250" Height="150"/>
+        
+        <Image x:Name="ProfileIconImage"  Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="3" Height="85" Width="85" VerticalAlignment="Top" Margin="10"/>
+        
+
     </Grid>
 </Window>
