@@ -31,17 +31,17 @@ namespace LeagueWorkBook
         Summoner searchedSummoner;
         CurrentGameInfo CurrentGameInfo;
         ChampionMastery[] championMastery;
-        List<Image> champMasteryImages = new List<Image>();
+        List<Image> Team1ChampIcons = new List<Image>();
         public MainWindow()
         {
             InitializeComponent();
 
             //adds image objects to an array
-            champMasteryImages.Add(champMasteryIcon1);
-            champMasteryImages.Add(champMasteryIcon2);
-            champMasteryImages.Add(champMasteryIcon3);
-            champMasteryImages.Add(champMasteryIcon4);
-            champMasteryImages.Add(champMasteryIcon5);
+            Team1ChampIcons.Add(Team1ChampIcon1);
+            Team1ChampIcons.Add(Team1ChampIcon2);
+            Team1ChampIcons.Add(Team1ChampIcon3);
+            Team1ChampIcons.Add(Team1ChampIcon4);
+            Team1ChampIcons.Add(Team1ChampIcon5);
 
         }
         void ChangeProfileIcon(int iconID) 
@@ -84,7 +84,7 @@ namespace LeagueWorkBook
                 MatchupNotes.Text = string.Concat(MatchupNotes.Text, (i+1)+")",champion.Name(), $": {mastery.ChampionPoints} \n");
                 string champShell = champion.Name().Replace(" ", string.Empty);
                 champShell = champShell.Replace("'", string.Empty);
-                champMasteryImages[i].Source = new BitmapImage(new Uri(@"/Images/champion/" + champShell + ".png", UriKind.Relative));
+                Team1ChampIcons[i].Source = new BitmapImage(new Uri(@"/Images/champion/" + champShell + ".png", UriKind.Relative));
             }
             ChangeProfileIcon(searchedSummoner.ProfileIconId);
         }

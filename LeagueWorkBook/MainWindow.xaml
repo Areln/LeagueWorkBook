@@ -45,27 +45,27 @@
                 <RowDefinition Height="5"/>
             </Grid.RowDefinitions>
             <!--Team1-->
-            <Image x:Name="champMasteryIcon1" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left"/>
-            <Image x:Name="champMasteryIcon2" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"/>
-            <Image x:Name="champMasteryIcon3" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left"/>
-            <Image x:Name="champMasteryIcon4" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Left"/>
-            <Image x:Name="champMasteryIcon5" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Image x:Name="Team1ChampIcon1" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left"/>
+            <Image x:Name="Team1ChampIcon2" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"/>
+            <Image x:Name="Team1ChampIcon3" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left"/>
+            <Image x:Name="Team1ChampIcon4" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Left"/>
+            <Image x:Name="Team1ChampIcon5" Source="/Images/champion/Aatrox.png" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left"/>
+            <TextBlock x:Name="Team1Name1" Text="Klowniish" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Team1Name2" Text="Lindquist26" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Team1Name3" Text="Syzzurpp" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Team1Name4" Text="Sinkingship" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Team1Name5" Text="Maegdon" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <!--Team2-->
             <Image x:Name="Team2ChampIcon1" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Right"/>
             <Image x:Name="Team2ChampIcon2" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Right"/>
             <Image x:Name="Team2ChampIcon3" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Right"/>
             <Image x:Name="Team2ChampIcon4" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="4" HorizontalAlignment="Right"/>
             <Image x:Name="Team2ChampIcon5" Source="/Images/champion/Aatrox.png" Grid.Column="4" Grid.Row="5" HorizontalAlignment="Right"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock Text="Syzzurpp" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Team2Name1" Text="Top Name" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Team2Name2" Text="Jungler Name" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Team2Name3" Text="Mid Name" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Team2Name4" Text="ADC Name" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock x:Name="Team2Name5" Text="Support Name" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
         
         <TextBox x:Name="SummonerNameSearchField" Text="Syzzurpp" Grid.Column="1" Grid.Row="1" Width="100"/>
